@@ -337,8 +337,11 @@ body.contact .footer-col .social-links a:hover { background: var(--maroon); colo
 .bg-video video {
   width: 100%;
   height: 100%;
+  position: absolute;
+  inset: 0;
   object-fit: cover;
   display: block;
+  z-index:0
 }
 
 /* ----- Welcome / about section ----- */
